@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebStudio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
   <header>
       <div>
-        <a href="index.html"><span>WebStudio</span></a>
+        <a href="index.html"><span class="logo-1">Web</span><span class="logo-2">Studio</span></a>
         <nav>
           <ul>
             <li><a href="index.html">Studio</a></li>
@@ -23,76 +26,95 @@
     </header>
 
     <main>
+      <ul class="btn-group">
+        <li><button type="button" class="btn btn-primary active">All</button></li>
+        <li><button type="button" class="btn btn-primary">Web-sites</button></li>
+        <li><button type="button" class="btn btn-primary">Apps</button></li>
+        <li><button type="button" class="btn btn-primary">Design</button></li>
+        <li><button type="button" class="btn btn-primary">Marketing</button></li>
+      </ul>
 
-      <button> <span>All</span> </button>
-      <button> <span>Web-sites</span> </button>
-      <button> <span>Apps</span> </button>
-      <button> <span>Design</span> </button>
-      <button> <span>Marketing</span> </button>
+      <div class="cards">
+        <div class="card">
+          <img src="./images/web-site-img-1.jpg" alt="Technoduck web-site interface" width="370" height="294">
+          <div class="card-content">
+            <span>Technoduck</span>
+            <br>
+            <em>Web-site</em>
+          </div>
+        </div>
 
-      <section>
-        <img src="./images/web-site-img-1.jpg" alt="Technoduck web-site interface" width="370" height="294">
-        <br>
-        <span>Technoduck</span>
-        <br>
-        <em>Web-site</em>
-        <br>
+        <div class="card">
+          <img src="./images/design-img-1.jpg" alt="New Orlean vs Golden Star poster" width="370" height="294">
+          <div class="card-content">
+            <span>Poster New Orlean vs Golden Star</span>
+            <br>
+            <em>Design</em>
+          </div>
+        </div>
 
-        <img src="./images/design-img-1.jpg" alt="New Orlean vs Golden Star poster" width="370" height="294">
-        <br>
-        <span>Poster New Orlean vs Golden Star</span>
-        <br>
-        <em>Design</em>
-        <br>
+        <div class="card">
+          <img src="./images/apps-img-1.jpg" alt="Seafood Restaurant app logo" width="370" height="294">
+          <div class="card-content">
+            <span>Seafood Restaurant</span>
+            <br>
+            <em>Apps</em>
+          </div>
+        </div>
 
-        <img src="./images/apps-img-1.jpg" alt="Seafood Restaurant app logo" width="370" height="294">
-        <br>
-        <span>Seafood Restaurant</span>
-        <br>
-        <em>Apps</em>
-        <br>
+        <div class="card">
+          <img src="./images/marketing-img-1.jpg" alt="Pair of headphones" width="370" height="294">
+          <div class="card-content">
+            <span>Project Prime</span>
+            <br>
+            <em>Marketing</em>
+          </div>
+        </div>
 
-        <img src="./images/marketing-img-1.jpg" alt="Pair of headphones" width="370" height="294">
-        <br>
-        <span>Project Prime</span>
-        <br>
-        <em>Marketing</em>
-        <br>
+        <div class="card">
+          <img src="./images/apps-img-2.jpg" alt="Illustration of boxes" width="370" height="294">
+          <div class="card-content">
+            <span>Project Boxes</span>
+            <br>
+            <em>Apps</em>
+          </div>
+        </div>
 
-        <img src="./images/apps-img-2.jpg" alt="Illustration of boxes" width="370" height="294">
-        <br>
-        <span>Project Boxes</span>
-        <br>
-        <em>Apps</em>
-        <br>
+        <div class="card">
+          <img src="./images/web-site-img-2.jpg" alt="Inspiration has no Borders web-site interface" width="370" height="294">
+          <div class="card-content">
+            <span>Inspiration has no Borders</span>
+            <br>
+            <em>Web-site</em>
+          </div>
+        </div>
 
-        <img src="./images/web-site-img-2.jpg" alt="Inspiration has no Borders web-site interface" width="370" height="294">
-        <br>
-        <span>Inspiration has no Borders</span>
-        <br>
-        <em>Web-site</em>
-        <br>
+        <div class="card">
+          <img src="./images/design-img-2.jpg" alt="Limited Edition magazine article" width="370" height="294">
+          <div class="card-content">
+            <span>Limited Edition</span>
+            <br>
+            <em>Design</em>
+          </div>
+        </div>
 
-        <img src="./images/design-img-2.jpg" alt="Limited Edition magazine article" width="370" height="294">
-        <br>
-        <span>Limited Edition</span>
-        <br>
-        <em>Design</em>
-        <br>
+        <div class="card">
+          <img src="./images/marketing-img-2.jpg" alt="Label tag for Project LAB" width="370" height="294">
+          <div class="card-content">
+            <span>Project LAB</span>
+            <br>
+            <em>Marketing</em>
+          </div>
+        </div>
 
-        <img src="./images/marketing-img-2.jpg" alt="Label tag for Project LAB" width="370" height="294">
-        <br>
-        <span>Project LAB</span>
-        <br>
-        <em>Marketing</em>
-        <br>
-
-        <img src="./images/apps-img-3.jpg" alt="Growing Business app interface" width="370" height="294">
-        <br>
-        <span>Growing Business</span>
-        <br>
-        <em>Apps</em>
-      </section>
+        <div class="card">
+          <img src="./images/apps-img-3.jpg" alt="Growing Business app interface" width="370" height="294">
+          <div class="card-content">
+            <span>Growing Business</span>
+            <br>
+            <em>Apps</em>
+          </div>
+        </div>
 
     </main>
 
