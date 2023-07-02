@@ -180,6 +180,15 @@ a span.logo-1 {
   margin-left: 215px;
 }
 
+.global-footer a span.logo-2 {
+  color: #FFFFFF;
+  font-size: 26px;
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
 .global-footer .footer-contact {
   color: rgba(255, 255, 255, 0.60);
   font-size: 14px;
