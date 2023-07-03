@@ -45,7 +45,8 @@ ul {
   margin-left: 50px;
 }
 
-.global-header .header-contact {
+.global-header .header-contact
+{
   color: #757575;
   margin-left: 40px;
 }
